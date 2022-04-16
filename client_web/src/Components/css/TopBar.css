@@ -1,0 +1,176 @@
+.bg_top {
+    width: 100%;
+    background-color: #013328;
+    position: absolute;
+    display: flex;
+    height: 10%;
+    min-height: 100px;
+    z-index: 999;
+}
+
+.buttons_Wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons_on_top {
+    width: 90%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    background-color: #013328;
+}
+
+.btn_dl_top {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    -webkit-box-shadow: 1px 1px 12px 0px #000000; 
+    box-shadow: 1px 1px 12px 0px #000000;
+    transition-duration:0.3s;
+}
+
+.btn_dl_top:hover {
+    transition-duration:0.3s;
+    cursor: pointer;
+    -webkit-box-shadow: inset 1px 1px 12px 0px #000000; 
+    box-shadow: inset 1px 1px 12px 0px #000000;
+}
+
+.ButtonTop {
+    background-color: #013328;
+    height: 100%;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-width: 2px;
+    border-color: #E3DCD2;
+    transition-duration: 0.3s;
+    border-width: 3px;
+    border-color: #E3DCD2;
+    border: none;
+    outline: none;
+}
+
+.ButtonTop:hover {
+    height: 145px;
+    transition-timing-function: ease-in-out;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px 14px 12px 4px rgba(0,0,0,0.29);
+    box-shadow: 0px 10px 13px -7px #000000, 3px 14px 12px 4px rgba(0,0,0,0.29);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.ButtonTopAccount {
+    background-color: #013328;
+    height: 100%;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-width: 2px;
+    border-color: #E3DCD2;
+    transition-duration: 0.3s;
+    border-width: 3px;
+    border-color: #E3DCD2;
+    border: none;
+    outline: none;
+}
+
+.ButtonTopAccount:hover {
+    height: 145px;
+    transition-timing-function: ease-in-out;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px 14px 12px 4px rgba(0,0,0,0.29);
+    box-shadow: 0px 10px 13px -7px #000000, 3px 14px 12px 4px rgba(0,0,0,0.29);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.ButtonLeave {
+    background-color: #013328;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-width: 2px;
+    border-color: #E3DCD2;
+    transition-duration: 0.3s;
+    z-index: 99;
+}
+
+.photo_sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+}
+
+.ButtonLeave:hover {
+    background-color: #E3DCD2;
+    cursor: pointer;
+}
+
+.ButtonLeave:hover .txt_top{
+    color: #013328;
+}
+
+.txt_top {
+    color: #E3DCD2;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 1280px) {
+    .ButtonTop {
+        min-width: 100px;
+    }
+
+    .bg_top, .buttons_Wrapper {
+        height: 100px;
+    }
+
+    .ButtonTop:hover {
+        height: 115px;
+    }
+
+    .txt_top {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .photo_sidebar {
+        display: none;
+        border-radius: 50px;
+    }
+    .txt_top{
+        font-size: 15px;
+    }
+    .buttons_on_top {
+        width: 100%;
+    }
+    .ButtonTop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .ButtonTopAccount {
+        display: none;
+    }
+}

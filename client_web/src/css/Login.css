@@ -1,0 +1,83 @@
+.back_login {
+    background-color: #E3DCD2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.title_t {
+    color: #013328;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title_w {
+    color: #013328;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Title_w {
+    margin-bottom: 15px;
+}
+
+.Buttons {
+    width: 60vh;
+    height: 100px;
+    display: flex;
+}
+
+.box_fb {
+    height: 70px;
+    width: 80%;
+}
+
+.or {
+    margin-top: 30px;
+    width: 60vh;
+}
+
+.password {
+    color: #013328;
+    margin-left: 45vh;
+}
+
+.password:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.account {
+    color: #013328;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.account:hover {
+    color: #B5B5B5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ButtonGoogle {
+    width: 50%;
+    height: 70%;
+}
+
+.Buttonfacebook {
+    width: 50%;
+    height: 200px;
+}
+
+.kep-login-facebook.metro {
+    height: 100%;
+    width: 80%;
+}

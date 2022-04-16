@@ -1,0 +1,47 @@
+.back_register {
+    background-color: #E3DCD2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.title {
+    color: white;
+}
+
+.Buttons {
+    width: 60vh;
+}
+
+.or {
+    margin-top: 30px;
+    width: 60vh;
+}
+
+.password {
+    color: #B5B5B5;
+    margin-left: 45vh;
+}
+
+.account {
+    color: #B5B5B5;
+}
+
+.signup_mail {
+    color: #B5B5B5;
+}
+
+.account:hover {
+    color: #B5B5B5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.question {
+    color: white;
+    margin-bottom: 1px;
+}
+
+.errorMessage {
+    color: red;
+    size: 14px;
+}

@@ -1,0 +1,5 @@
+Green -> #013328
+Clear Yellow ( Background ) -> #E3DCD2
+Black -> #000
+Sheet Background -> #D3D0C4
+Grey Sheet -> #C4C4C4

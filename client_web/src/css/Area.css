@@ -1,0 +1,21 @@
+.back {
+    background-color: #E3DCD2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.backWidget {
+    width: 27.5vw;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.Sheet_manage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 125px;
+    overflow-y: auto;
+}

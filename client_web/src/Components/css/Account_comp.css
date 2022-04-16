@@ -1,0 +1,97 @@
+.Account_Wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_cont {
+    width: 30%;
+    min-width: 400px;
+    height: 65%;
+    min-height: 500px;
+    margin-top: 100px;
+    background-color: #013328;
+    border-radius: 50px;
+    animation-name: slide-in-top;
+    animation-duration: 1.2s;
+}
+
+.photo_cont {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+}
+
+.photo_couv {
+    background-color: #E3DCD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.photo {
+    -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);
+}
+
+.UserName_cont {
+    width: 100%;
+    height: 15%;
+    min-height: fit-content;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_account {
+    font-size: 32px;
+    font-weight: bold;
+    color: #E3DCD2;
+}
+
+.Mail_cont {
+    width: 100%;
+    height: 10%;
+    min-height: fit-content;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }

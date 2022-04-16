@@ -1,0 +1,23 @@
+.back_forgot {
+    background-color: #101010;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.title {
+    color: white;
+}
+
+.Buttons {
+    width: 60vh;
+}
+
+.account {
+    color: #B5B5B5;
+}
+
+.question {
+    margin-bottom: 10px;
+    margin-left: -44vh;
+}

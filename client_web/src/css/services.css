@@ -1,0 +1,91 @@
+.back_services {
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.allInfos {
+    margin-left: 450px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.see {
+    margin-top: 150px;
+    /* margin-left: 450px; */
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.widgetAdded {
+    margin-top: 180px;
+    padding: 10px;
+    color: #000000;
+    background-color:#1cb451;
+    width: 400px;
+    margin-left: 40%;
+    border-radius: 25px;
+}
+
+.allButtons {
+    margin-top: -50%;
+    margin-left: 450px;
+    display: flex;
+}
+
+.buttonNav {
+    width: 100%;
+}
+
+.OneInfo {
+    height: 400px;
+    width: 320px;
+    margin-right: 25px;
+    float: left;
+    text-align: center;
+}
+
+.btn {
+    background-color: #1DB954;
+    height: 45px;
+    width: 320px;
+    margin-right: 25px;
+    float: left;
+}
+
+.btn-subscribe {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.listWidget {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#text_widget {
+    background-color: rgba(255, 255, 255, 0.01);
+    width: 100%;
+    height: 40px;
+    list-style-type: none;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#text_widget:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#text_widget:active{
+    background-color: #1DB954;
+    opacity: 0.7;
+}
